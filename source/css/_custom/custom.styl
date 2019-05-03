@@ -1,0 +1,159 @@
+body {
+    background:url(https://github.com/kjhuanhao/cdn/blob/master/img/1.jpg?raw=true);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:50% 50%;
+
+}
+
+
+// 修改主体透明度
+.main-inner {
+  background: #fff;
+  opacity: 0.8;
+}
+
+// 修改菜单栏透明度
+.header-inner {
+  opacity: 0.8;
+}
+
+.menu .menu-item a {
+    padding: 5px 20px;
+    background: #222;
+    border: none;
+    color: #fff;
+    transition-property: background;
+    box-shadow: 5px 5px 5px #888;
+    border-radius: 10px;
+}
+
+.menu .menu-item {
+    margin-left: 0px;
+}
+
+
+// 首页文章阴影样式
+.post {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 14px rgba(202, 203, 203, .5);
+  -moz-box-shadow: 0 0 14px rgba(202, 203, 204, .5);
+}
+
+// 侧栏按钮样式
+.sidebar-toggle {
+    background: #649ab6;
+}
+.back-to-top {
+    background: #649ab6;
+}
+
+// 首页阅读全文样式
+.post-button {
+    margin-top: 10px;
+    text-align: center;
+}
+.post-button .btn {
+    color: #fff;
+    font-size: 15px;
+    background: #686868;
+    border-radius: 16px;
+    line-height: 2;
+    margin: 0 4px 8px 4px;
+    padding: 0 20px;
+}
+.post-button a{
+  border-bottom: 1px solid #666;
+}
+.post-button a:hover {
+    color: #7784ba;
+}
+
+// 文章目录样式
+.post-toc .nav .active>a {
+    color: #4f7e96;
+}
+
+.post-toc ol a:hover {
+    color: #7784ba;
+}
+
+.sidebar-nav .sidebar-nav-active:hover {
+    color: #37596c;
+}
+
+// 文章标题
+a {
+    border-bottom: none;
+}
+
+.post-nav {
+    border-top: 1px solid #58B2DC;
+}
+
+.posts-expand .post-tags {
+    text-align: center;
+}
+
+.posts-expand .post-tags a {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    font-family: 'Comic Sans MS', sans-serif;
+    transition: 0.2s ease-out;
+}
+
+.posts-expand .post-tags a:hover {
+    background-color: #58B2DC;
+    color: #f5f5f5;
+}
+
+.posts-expand .post-title:hover {
+    border-left: #7DB9DE 20px solid;
+    padding-left: 15px;
+    cursor: pointer;
+    transition: border-width 0.3s linear 0.1s, color 0.2s linear 0.3s;
+}
+
+// 文章中图片居中
+.post-body img {
+    margin: 0 auto;
+}
+
+// 鼠标样式
+* {
+    cursor: url("http://olxczlg18.bkt.clouddn.com/Aero_arrow.cur"),auto!important;
+}
+
+:active {
+    cursor: url("http://olxczlg18.bkt.clouddn.com/Aero_Working.cur"),auto!important
+}
+
+// 页脚居中显示
+.footer-inner, .post-spread {
+    text-align: center;
+}
+
+code {
+    color: #ff7600;
+    background: #fbf7f8;
+    margin: 5px;
+}
+// 大代码块的自定义样式
+.highlight, pre {
+    margin: 1px 0;
+    padding: 3px;
+    border-radius: 3px;
+}
+.highlight, code, pre {
+    border: 1px solid #d6d6d6;
+}
+
+//侧边栏置于左侧
+.sidebar {
+  left: 100;
+}
+//侧栏开关置于左侧
+.sidebar-toggle {
+  left: $b2t-position-right;
+}
